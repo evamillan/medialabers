@@ -42,6 +42,56 @@ p:first-child:first-letter {
 a {
   color: #7b2d26; }
 
+.btn-mobile-size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 5px; }
+
+.line-btn-menu {
+  width: 30px;
+  height: 4px;
+  background-color: #19535f;
+  margin: 2px;
+  border-radius: 2px; }
+
+@media screen and (min-width: 480px) {
+  .btn-mobile-size {
+    display: none; } }
+.nav-menu {
+  background-color: #d7c9aa;
+  position: fixed;
+  width: 100%; }
+
+.menu-full-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.li-menu-full-screen-size {
+  list-style: none;
+  padding: 5px; }
+
+.link-header {
+  text-decoration: none;
+  color: white; }
+
+@media screen and (max-width: 480px) {
+  .menu-full-screen {
+    display: none; } }
 .section-top {
   width: 700px;
   padding: 10px 20px;
@@ -147,3 +197,5 @@ header {
     opacity: 1;
     -webkit-transform: none;
             transform: none; } }
+
+/*# sourceMappingURL=main.css.map */
