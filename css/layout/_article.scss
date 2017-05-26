@@ -1,0 +1,45 @@
+.section-top {
+  width: 700px;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -250px;
+  background-color: #f0f3f5;
+  animation-name: fadeInUp;
+  animation-duration: 4s;
+}
+
+@keyframes fadeInUp {
+from {
+opacity: 0;
+transform: translate3d(0, 100%, 0);
+}
+to {
+  opacity: 1;
+  transform: none;
+}
+}
+.section-highlighted {
+  background-color: #d7c9aa;
+  margin-top: 40px;
+}
+
+.text-highlighted {
+  width: 50vw;
+  padding: 20px 30px;
+  float: left;
+}
+
+.section-center {
+  width: 700px;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.highlighted-blue {
+  width: 50vw;
+  padding: 20px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #0b7a75;
+}
