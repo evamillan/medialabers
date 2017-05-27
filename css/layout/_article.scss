@@ -1,9 +1,9 @@
 .section-top {
-  width: 700px;
-  padding: 10px 20px;
+  width: 43.750em;
+  padding: 0.625em 1.250em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -250px;
+  margin-top: -15.625em;
   background-color: #f0f3f5;
   animation-name: fadeInUp;
   animation-duration: 4s;
@@ -21,25 +21,25 @@ to {
 }
 .section-highlighted {
   background-color: #d7c9aa;
-  margin-top: 40px;
+  margin-top: 2.500em;
 }
 
 .text-highlighted {
   width: 50vw;
-  padding: 20px 30px;
+  padding: 1.250em 1.875em;
   float: left;
 }
 
 .section-center {
-  width: 700px;
-  padding: 10px 20px;
+  width: 43.750em;
+  padding: 0.625em 1.250em;
   margin-left: auto;
   margin-right: auto;
 }
 .highlighted-blue {
   width: 50vw;
-  padding: 20px 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 1.250em 1.875em;
+  margin-top: 1.250em;
+  margin-bottom: 1.250em;
   background-color: #0b7a75;
 }
