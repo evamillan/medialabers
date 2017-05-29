@@ -1,10 +1,14 @@
 .title {
-  padding-top: 15%;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 5%;
+  width: 40%;
+  margin-left: 5%;
   animation-name: fadeInLeft;
   animation-duration: 3s;
+  // text-align: center;
+
+  h2 {
+    margin-top: -1.4em;
+  }
 }
 @keyframes fadeInLeft {
   from {
@@ -19,7 +23,7 @@
 }
 
 header {
-  background-image: url("pueblo.jpg");
+  background-image: url("../images/historia-5.jpg");
   background-color: #19535f;
   background-blend-mode: multiply;
   height: 100vh;

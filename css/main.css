@@ -9,7 +9,7 @@ body {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 3em;
+  font-size: 4em;
   color: #f0f3f5; }
 
 h2 {
@@ -56,14 +56,14 @@ a {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding: 5px; }
+  padding: 0.313em; }
 
 .line-btn-menu {
-  width: 30px;
-  height: 4px;
+  width: 1.875em;
+  height: 0.250em;
   background-color: #19535f;
-  margin: 2px;
-  border-radius: 2px; }
+  margin: 0.125em;
+  border-radius: 0.125em; }
 
 @media screen and (min-width: 480px) {
   .btn-mobile-size {
@@ -93,56 +93,32 @@ a {
   .menu-full-screen {
     display: none; } }
 .section-top {
-  width: 700px;
-  padding: 10px 20px;
+  width: 43.750em;
+  padding: 0.625em 1.250em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -250px;
-  background-color: #f0f3f5;
-  -webkit-animation-name: fadeInUp;
-          animation-name: fadeInUp;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s; }
+  background-color: #f0f3f5; }
 
-@-webkit-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100%, 0); }
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none; } }
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100%, 0); }
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none; } }
 .section-highlighted {
   background-color: #d7c9aa;
-  margin-top: 40px; }
+  margin-top: 2.500em; }
 
 .text-highlighted {
   width: 50vw;
-  padding: 20px 30px;
+  padding: 1.250em 1.875em;
   float: left; }
 
 .section-center {
-  width: 700px;
-  padding: 10px 20px;
+  width: 43.750em;
+  padding: 0.625em 1.250em;
   margin-left: auto;
   margin-right: auto; }
 
 .highlighted-blue {
   width: 50vw;
-  padding: 20px 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 1.250em 1.875em;
+  margin-top: 1.250em;
+  margin-bottom: 1.250em;
   background-color: #0b7a75; }
 
 footer {
@@ -156,7 +132,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px;
+  padding: 0.625em;
   width: 100%; }
   footer a {
     font-family: 'Raleway', sans-serif;
@@ -172,29 +148,18 @@ footer {
   text-align: right; }
 
 .medialab {
-  border-left: 1px solid #7b2d26; }
+  border-left: 0.063em solid #7b2d26; }
 
 .title {
-  padding-top: 15%;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 5%;
+  width: 40%;
+  margin-left: 5%;
   -webkit-animation-name: fadeInLeft;
           animation-name: fadeInLeft;
   -webkit-animation-duration: 3s;
           animation-duration: 3s; }
-
-header {
-  background-image: url("pueblo.jpg");
-  background-color: #19535f;
-  background-blend-mode: multiply;
-  height: 100vh;
-  max-width: 100vw;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 0; }
+  .title h2 {
+    margin-top: -1.4em; }
 
 @-webkit-keyframes fadeInLeft {
   from {
@@ -215,4 +180,16 @@ header {
     opacity: 1;
     -webkit-transform: none;
             transform: none; } }
+header {
+  background-image: url("../images/historia-5.jpg");
+  background-color: #19535f;
+  background-blend-mode: multiply;
+  height: 100vh;
+  max-width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0; }
+
 /*# sourceMappingURL=main.css.map */
