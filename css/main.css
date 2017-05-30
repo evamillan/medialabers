@@ -66,6 +66,9 @@ a {
   margin: 0.175em;
   border-radius: 0.125em; }
 
+.hidden {
+  display: none; }
+
 @media screen and (min-width: 480px) {
   .btn-mobile-size {
     display: none; } }
