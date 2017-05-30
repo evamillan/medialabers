@@ -1,6 +1,7 @@
 .nav-menu {
   background-color: #d7c9aa;
   position: fixed;
+  top: 0%;
   width: 100%;
 }
 
@@ -17,6 +18,10 @@
 .link-header {
   text-decoration: none;
   color: white;
+}
+
+.menu-mobile-screen {
+  background-color: #fabada;
 }
 
 @media screen and (max-width: 480px) {
