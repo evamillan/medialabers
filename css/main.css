@@ -56,7 +56,8 @@ a {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding: 0.313em; }
+  padding: 0.313em;
+  cursor: pointer; }
 
 .line-btn-menu {
   width: 1.975em;
@@ -91,7 +92,10 @@ a {
   color: white; }
 
 .menu-mobile-screen {
-  background-color: #fabada; }
+  background-color: #d7c9aa;
+  position: absolute;
+  top: 28px;
+  right: 0%; }
 
 @media screen and (max-width: 480px) {
   .menu-full-screen {
