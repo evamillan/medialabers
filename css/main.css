@@ -16,8 +16,9 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   font-style: italic;
-  font-size: 1.5em;
-  color: #f0f3f5; }
+  font-size: 1.2em;
+  color: #f0f3f5;
+  text-align: right; }
 
 h3 {
   font-family: 'Raleway', sans-serif;
@@ -165,34 +166,24 @@ footer {
   padding-top: 5%;
   width: 40%;
   margin-left: 5%;
-  -webkit-animation-name: fadeInLeft;
-          animation-name: fadeInLeft;
+  -webkit-animation-name: titleFadeIn;
+          animation-name: titleFadeIn;
   -webkit-animation-duration: 3s;
           animation-duration: 3s; }
 
-@-webkit-keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0); }
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none; } }
-
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0); }
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none; } }
 .subtitle {
   width: 40%;
   margin-left: auto;
-  padding-right: 5%; }
+  padding-right: 5%;
+  -webkit-animation-name: slideInUp;
+          animation-name: slideInUp;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  visibility: hidden; }
 
 header {
   background-image: url("../images/historia-5.jpg");
@@ -206,4 +197,73 @@ header {
   background-size: cover;
   margin-top: 0; }
 
+@-webkit-keyframes titleFadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@keyframes titleFadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+.animatedElement {
+  opacity: 0; }
+
+.fadeInLeftAnimation {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-70%, 0, 0);
+            transform: translate3d(-70%, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-70%, 0, 0);
+            transform: translate3d(-70%, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+    visibility: visible;
+    opacity: 0; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    visibility: visible; } }
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+    visibility: visible;
+    opacity: 0; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    visibility: visible; } }
 /*# sourceMappingURL=main.css.map */
