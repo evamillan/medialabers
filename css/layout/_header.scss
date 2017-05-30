@@ -4,11 +4,6 @@
   margin-left: 5%;
   animation-name: fadeInLeft;
   animation-duration: 3s;
-  // text-align: center;
-
-  h2 {
-    margin-top: -1.4em;
-  }
 }
 @keyframes fadeInLeft {
   from {
@@ -20,6 +15,12 @@
     opacity: 1;
     transform: none;
   }
+}
+
+.subtitle {
+  width: 40%;
+  margin-left: auto;
+  padding-right: 5%;
 }
 
 header {
