@@ -89,6 +89,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 -moz-transform: scale(1.1,1.1);
 }
 </style>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 </head>
 
 <body>
@@ -126,7 +127,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.5);
         </p>
         <p>Esta tendencia se debe a que las mujeres “siempre han encontrado más dificultades para abrirse camino en el mercado laboral rural”, aseguran Margarita Rico y Jesús María Gomez en un estudio de la Universidad de Valladolid.
         </p>
-        <h3>
+        <h3 class="animatedElement">
   La ausencia de oportunidades “dibuja un paisaje en el que las mujeres abandonan su medio en busca de mejores opciones para ellas y sus hijos e hijas”.
        </h3>
         <p>En consecuencia, el envejecimiento de la población rural aumenta con los años, según el estudio Plan para la Promoción de las Mujeres del Medio Rural.
@@ -134,7 +135,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.5);
         <p>Los datos del padrón de 2016 arroján una conclusión clara: a medida que disminuye la poblacíon del pueblo, la disparidad entre hombres y mujeres de 20 a 64 años aumenta a favor de los hombres. Esta diferencia ya existía en las zonas rurales en
             el año 1996, aunque ahora se ha acentuado.
         </p>
-        <h3>En el caso de los pueblos menores de 200 habitantes, el 95% de los municipios tiene más hombres que mujeres en edad de trabajar.</h3>
+        <h3 class="animatedElement">En el caso de los pueblos menores de 200 habitantes, el 95% de los municipios tiene más hombres que mujeres en edad de trabajar.</h3>
     </article>
 
     <article class="section-highlighted">
@@ -146,7 +147,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 
       <p>Según la socióloga es en las zonas rurales pequeñas donde el control social de las mujeres se ve reforzado. </p>
       <div class="highlighted-blue">
-          <h2>“Cuando se suman los obstáculos por discriminación al desarrollo personal y profesional, las mujeres eligen experimentar otras alternativas.</h2>
+          <h2 class="animatedElement">“Cuando se suman los obstáculos por discriminación al desarrollo personal y profesional, las mujeres eligen experimentar otras alternativas.</h2>
       </div>
       <p>En cambio, los hombres lo tienen más facil por el esquema social y las actividades que se llevan a cabo”, asegura Fatima  Cruz.</p>
 
@@ -163,7 +164,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.5);
         <p>Los desplazamientos a otras localidades más grandes de la comarca por motivos laborales, lo que se conoce como commuting son más sencillos para los hombres que para las mujeres ya que “ellas han tenido más problemas para conciliarlo con la vida
             familiar” en la que la mujer suele desempeñar un rol más importante que el hombre, asegura el sociólogo Luis Camarero.</p>
         </p>
-        <h3>Gotarrendura se esfuerza por fomentar el papel de la mujer</h3>
+        <h3 class="animatedElement">Gotarrendura se esfuerza por fomentar el papel de la mujer</h3>
 
         <P>A medio camino, entre Arévalo y Ávila, se encuentra un pueblo de menos de 200 habitantes en el que las mujeres adultas representan casi el mismo número que el de hombres. Su nombre es Gotarrendura y es uno de los municipios en el que algunos historiadores
             consideran que nació Santa Teresa de Jesus. El número de mujeres en edad de trabajar empadronadas sigue estando por debajo del de los hombres -28, frente a 33 hombres-. A pesar de ello, una asociación de mujeres local se esfuerza por fomentar
@@ -210,7 +211,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.5);
       Desire <br>
       Blanca <br>
       Leila Castillo
-      
+
   <a href="#close" title="Cerrar" onclick="toogle('none','modal','ventana')">Close</a>
   </div>
   </div>
@@ -240,6 +241,22 @@ Después, hablamos con expertos para que nos dieran pistas sobre el cómo y el p
     <script src="js/main.js" charset="utf-8"></script>
 
     </script>
+
+<!-- JS para las animaciones
+      cuando se hace scroll sobre los elementos con la clase animatedElement
+     les añade la clase fadeInLeftAnimation-->
+    <script>
+	$(window).scroll(function() {
+		$('.animatedElement').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+500) {
+				$(this).addClass("fadeInLeftAnimation");
+			}
+		});
+	});
+</script>
 </body>
 
 </html>
