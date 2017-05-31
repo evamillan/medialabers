@@ -1,5 +1,5 @@
 $(document).ready(function() {
-$('#fullpage').fullpage();({
-  loopHorizontal: false,
-  });
+	$('#fullpage').fullpage({
+  controlArrows: false,
+});
 });
