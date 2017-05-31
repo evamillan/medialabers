@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var button = document.querySelector(".btn-mobile-size");
 var menuMobile = document.querySelector(".menu-mobile-screen");
 
@@ -10,3 +11,13 @@ function toggleOpenClose() {
   }
 }
 button.addEventListener('click', toggleOpenClose);
+=======
+'user-strict'
+
+$(document).ready(function() {
+  $('#fullpage').fullpage();
+  ({
+    loopHorizontal: false,
+  });
+});
+>>>>>>> new structure

@@ -37,3 +37,22 @@ p:first-child:first-letter {
 a {
   color: #7b2d26;
 }
+
+.title {
+  padding-top: 5%;
+  width: 40%;
+  margin-left: 5%;
+  animation-name: titleFadeIn;
+  animation-duration: 3s;
+}
+
+.subtitle {
+  width: 40%;
+  margin-left: auto;
+  padding-right: 5%;
+  /*animation-name: slideInUp;
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  visibility: hidden;*/
+}
