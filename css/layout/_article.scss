@@ -5,22 +5,8 @@
   margin-right: auto;
 }
 
-.story-intro {
-  background-color: #d7c9aa;
-}
-
-.section-top {
-  width: 43.750em;
-  padding: 0.625em 1.250em;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #f0f3f5;
-}
-
-// <<<<<<< HEAD
-// =======
 .main {
-  // background-image: url("historia-5.jpg");
+  background-image: url("../images/historia-5.jpg");
   background-color: rgb(30, 168, 181);
   background-blend-mode: multiply;
   height: 100vh;
@@ -48,24 +34,13 @@ to {
   transform: none;
 }
 }
->>>>>>> new structure
-.section-highlighted {
+
+.story-intro {
   background-color: #d7c9aa;
-  margin-top: 2.500em;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.text-highlighted {
-  width: 50vw;
-  padding: 1.250em 1.875em;
-  float: left;
-}
-
-.section-center {
-  width: 43.750em;
-  padding: 0.625em 1.250em;
-  margin-left: auto;
-  margin-right: auto;
-}
 .highlighted-blue {
   width: 50vw;
   padding: 1.250em 1.875em;

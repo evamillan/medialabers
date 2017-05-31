@@ -129,17 +129,8 @@ a {
   margin-left: auto;
   margin-right: auto; }
 
-.story-intro {
-  background-color: #d7c9aa; }
-
-.section-top {
-  width: 43.750em;
-  padding: 0.625em 1.250em;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #f0f3f5; }
-
 .main {
+  background-image: url("../images/historia-5.jpg");
   background-color: #1ea8b5;
   background-blend-mode: multiply;
   height: 100vh;
@@ -173,21 +164,10 @@ a {
     opacity: 1;
     -webkit-transform: none;
             transform: none; } }
-> > > > > > > new structure
-.section-highlighted {
+.story-intro {
   background-color: #d7c9aa;
-  margin-top: 2.500em; }
-
-.text-highlighted {
-  width: 50vw;
-  padding: 1.250em 1.875em;
-  float: left; }
-
-.section-center {
-  width: 43.750em;
-  padding: 0.625em 1.250em;
-  margin-left: auto;
-  margin-right: auto; }
+  padding-left: 100px;
+  padding-right: 100px; }
 
 .highlighted-blue {
   width: 50vw;
@@ -248,7 +228,7 @@ footer {
           animation-fill-mode: forwards;
   visibility: hidden; }
 
-header {
+.main {
   background-image: url("../images/historia-5.jpg");
   background-color: #19535f;
   background-blend-mode: multiply;
@@ -279,9 +259,6 @@ header {
     opacity: 1;
     -webkit-transform: none;
             transform: none; } }
-.animatedElement {
-  opacity: 0; }
-
 .fadeInLeftAnimation {
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
