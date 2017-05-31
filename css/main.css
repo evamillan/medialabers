@@ -92,6 +92,50 @@ a {
 @media screen and (min-width: 480px) {
   .btn-mobile-size {
     display: none; } }
+.main {
+  background-image: url("../images/historia-5.jpg");
+  background-color: #1ea8b5;
+  background-blend-mode: multiply;
+  height: 100vh;
+  max-width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0; }
+
+.sandra {
+  background-image: url("../images/historia.jpg");
+  background-size: cover;
+  height: 100vh;
+  max-width: 100vw;
+  /*background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;*/ }
+
+.virginia {
+  background-image: url("../images/virginia.jpg");
+  background-size: cover;
+  background-color: #1ea8b5;
+  background-blend-mode: multiply;
+  height: 100vh;
+  max-width: 100vw;
+  margin-top: 0; }
+
+.mari-carmen {
+  background-image: url("../images/historia.jpg");
+  background-color: #1ea8b5;
+  background-blend-mode: multiply;
+  height: 100vh;
+  max-width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0; }
+
 .nav-menu {
   background-color: #d7c9aa;
   position: fixed;
@@ -128,18 +172,6 @@ a {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto; }
-
-.main {
-  background-image: url("../images/historia-5.jpg");
-  background-color: #1ea8b5;
-  background-blend-mode: multiply;
-  height: 100vh;
-  max-width: 100vw;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 0; }
 
 .story-intro {
   padding-left: 100px;
