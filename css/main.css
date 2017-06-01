@@ -106,22 +106,26 @@ a {
 
 .sandra {
   background-image: url("../images/historia.jpg");
-  background-size: cover;
-  height: 100vh;
-  max-width: 100vw;
-  /*background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 0;*/ }
-
-.virginia {
-  background-image: url("../images/virginia.jpg");
-  background-size: cover;
   background-color: #1ea8b5;
   background-blend-mode: multiply;
   height: 100vh;
   max-width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0; }
+
+.virginia {
+  background-image: url("../images/virginia.jpg");
+  background-color: #1ea8b5;
+  background-blend-mode: multiply;
+  height: 100vh;
+  max-width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 0; }
 
 .mari-carmen {
@@ -167,6 +171,41 @@ a {
 @media screen and (max-width: 480px) {
   .menu-full-screen {
     display: none; } }
+.title {
+  padding-top: 5%;
+  width: 40%;
+  margin-left: 5%;
+  -webkit-animation-name: titleFadeIn;
+          animation-name: titleFadeIn;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s; }
+
+.subtitle {
+  width: 40%;
+  margin-left: auto;
+  padding-right: 5%;
+  -webkit-animation-name: slideInUp;
+          animation-name: slideInUp;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  visibility: hidden; }
+
+.main {
+  background-image: url("../images/historia-5.jpg");
+  background-color: #19535f;
+  background-blend-mode: multiply;
+  height: 100vh;
+  max-width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0; }
+
 .story {
   width: 80%;
   max-width: 600px;
@@ -208,6 +247,20 @@ a {
   margin-bottom: 1.250em;
   background-color: #0b7a75; }
 
+.authors {
+  background-color: #d7c9aa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.625em;
+  height: 100vh;
+  max-width: 100vw; }
+
 footer {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
@@ -240,41 +293,6 @@ footer {
 
 .medialab {
   border-left: 0.063em solid #7b2d26; }
-
-.title {
-  padding-top: 5%;
-  width: 40%;
-  margin-left: 5%;
-  -webkit-animation-name: titleFadeIn;
-          animation-name: titleFadeIn;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s; }
-
-.subtitle {
-  width: 40%;
-  margin-left: auto;
-  padding-right: 5%;
-  -webkit-animation-name: slideInUp;
-          animation-name: slideInUp;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  visibility: hidden; }
-
-.main {
-  background-image: url("../images/historia-5.jpg");
-  background-color: #19535f;
-  background-blend-mode: multiply;
-  height: 100vh;
-  max-width: 100vw;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 0; }
 
 @-webkit-keyframes titleFadeIn {
   from {

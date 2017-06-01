@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-  controlArrows: false,
+  // controlArrows: false,
+	css3: false,
 });
 });
