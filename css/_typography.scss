@@ -75,3 +75,24 @@ a {
 .info-authors{
   text-align: right;
 }
+@media screen and (max-width: 980px){
+  .text-info-color{
+    color:$color-details;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .5em;
+    line-height: .5em;
+  }
+  .text-info{
+    font-size: .3em;
+    text-decoration: none;
+  }
+  .media-text.wmen{
+    font-family: $font-style-paragraph;
+    font-size: 0.1em;
+  }
+.details-info-wman{
+  width: 100%;
+  height: 100%;
+}
+}
