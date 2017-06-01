@@ -314,6 +314,13 @@ a {
   height: 100vh;
   max-width: 100vw; }
 
+@media screen and (max-width: 980px) {
+  .authors {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center; } }
 footer {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
