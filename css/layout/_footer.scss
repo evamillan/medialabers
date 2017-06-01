@@ -1,6 +1,6 @@
 footer {
   align-items: stretch;
-  background-color: #d7c9aa;
+  background-color: $color-backgroud-stories;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,9 +10,9 @@ footer {
 
 
   a {
-    font-family: 'Raleway', sans-serif;
+    font-family: $font-style-title;
     font-size: 0.9em;
-    color: #7b2d26;
+    color: $color-details;
   }
 
   p {
@@ -29,5 +29,5 @@ footer {
 }
 
 .medialab {
-  border-left: 0.063em solid #7b2d26;
+  border-left: 0.063em solid $color-details;
 }
