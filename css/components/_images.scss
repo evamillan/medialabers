@@ -11,3 +11,35 @@
   background-size: cover;
   margin-top: 0;
 }
+
+.photo1-3{
+  display: flex;
+  justify-content: flex-end;
+  
+  padding-top: 1em;
+
+}
+.photo1{
+  width: 20em;
+  opacity: 0.7;
+  border-radius:100em;
+
+}
+
+.text-photo{
+  padding: 3em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.details-info-wman{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding: 3em;
+}
+.container-text-photo{
+  display: flex;justify-content: space-between;
+}

@@ -62,3 +62,16 @@ a {
   font-size: 1em;
   color: #f0f3f5;
 }
+
+.text-info-color{
+  color:$color-details;
+  text-decoration: none;
+  font-weight: bold;
+}
+.text-info{
+  font-size: .5em;
+  text-decoration: none;
+}
+.info-authors{
+  text-align: right;
+}
