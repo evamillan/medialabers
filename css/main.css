@@ -219,8 +219,12 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0.625em;
-  width: 100%; }
+  height: 100vh;
+  max-width: 100vw; }
   footer a {
     font-family: 'Raleway', sans-serif;
     font-size: 0.9em;
