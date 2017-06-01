@@ -26,13 +26,14 @@ p {
   font-family: $font-style-paragraph;
   font-size: 1em;
 }
+
 p:first-child:first-letter {
-      color: $color-details;
-      float: left;
-      font-size: 3em;
-      font-weight: bold;
-      padding-right: 0.5em;
-    }
+  color: $color-details;
+  float: left;
+  font-size: 3em;
+  font-weight: bold;
+  padding-right: 0.5em;
+}
 
 a {
   color: $color-details;
@@ -57,54 +58,70 @@ a {
   visibility: hidden;*/
 }
 
-.notes{
+.notes {
   font-family: 'Raleway', serif;
   font-size: 1em;
   color: #f0f3f5;
 }
 
-.text-info-color{
-  color:$color-details;
+.text-info-color {
+  color: $color-details;
   text-decoration: none;
   font-weight: bold;
 }
-.text-info{
-  font-size: .5em;
+
+.text-info {
+  font-size: 0.5em;
   text-decoration: none;
 }
-.info-authors{
+
+.info-authors {
   text-align: right;
 }
-@media screen and (max-width: 980px){
-
-  .text-info-color{
-    color:$color-details;
+@media screen and (max-width: 980px) {
+  .text-info-color {
+    color: $color-details;
     text-decoration: none;
     font-weight: bold;
-    font-size: .5em;
-    line-height: .5em;
+    font-size: 0.5em;
+    line-height: 0.5em;
   }
-  .text-info{
-    font-size: .3em;
+
+  .text-info {
+    font-size: 0.3em;
     text-decoration: none;
   }
-  .media-text.wmen{
-    font-family: $font-style-paragraph;
-    font-size: 0.1em;
-  }
-.details-info-wman{
-  width: 100%;
-  height: 100%;
-}
 
-  h1{
+  .text-wman {
+    p {
+      font-family: $font-style-paragraph;
+      font-size: 0.7em;
+      width: 100%;
+      text-align: justify;
+    }
+
+    p:first-child:first-letter {
+      color: $color-details;
+      float: left;
+      font-size: 3em;
+      font-weight: bold;
+    }
+  }
+
+  .media-text.wmen {
+    font-family: $font-style-paragraph;
+    font-size: 0.3em;
+  }
+
+  h1 {
     font-size: 2em;
   }
-  h2{
+
+  h2 {
     font-size: 1em;
   }
-  h3{
+
+  h3 {
     font-size: 1.3em;
   }
-
 }
