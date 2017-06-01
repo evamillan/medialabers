@@ -79,6 +79,15 @@ a {
 .info-authors {
   text-align: right; }
 
+@media screen and (max-width: 980px) {
+  h1 {
+    font-size: 2em; }
+
+  h2 {
+    font-size: 1em; }
+
+  h3 {
+    font-size: 1.3em; } }
 .main {
   background-image: url("../images/historia-5.jpg");
   background-color: #1ea8b5;
@@ -247,6 +256,9 @@ a {
           animation-fill-mode: forwards;
   visibility: hidden; }
 
+@media screen and (max-width: 980px) {
+  .subtitle {
+    width: 80%; } }
 .story {
   width: 80%;
   max-width: 600px;
