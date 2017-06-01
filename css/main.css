@@ -310,9 +310,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -329,11 +328,40 @@ footer {
   footer div {
     padding: 1.25em; }
 
+.contact {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
 .adalab {
-  text-align: right; }
+  text-align: right;
+  width: 50%; }
 
 .medialab {
-  border-left: 0.063em solid #7b2d26; }
+  border-left: 0.063em solid #7b2d26;
+  width: 50%; }
+
+.twitter {
+  width: 100vw;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+
+a.twitter-link {
+  margin: auto; }
 
 @-webkit-keyframes titleFadeIn {
   from {
