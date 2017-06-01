@@ -62,6 +62,11 @@ a {
   animation-fill-mode: forwards;
   visibility: hidden;*/ }
 
+.notes {
+  font-family: 'Raleway', serif;
+  font-size: 1em;
+  color: #f0f3f5; }
+
 .main {
   background-image: url("../images/historia-5.jpg");
   background-color: #1ea8b5;
@@ -282,5 +287,4 @@ footer {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
     visibility: visible; } }
-
 /*# sourceMappingURL=main.css.map */
