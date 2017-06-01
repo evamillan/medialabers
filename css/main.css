@@ -79,6 +79,34 @@ a {
 .info-authors {
   text-align: right; }
 
+@media screen and (max-width: 980px) {
+  .text-info-color {
+    color: #7b2d26;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .5em;
+    line-height: .5em; }
+
+  .text-info {
+    font-size: .3em;
+    text-decoration: none; }
+
+  .media-text.wmen {
+    font-family: "Merriweather", serif;
+    font-size: 0.1em; }
+
+  .details-info-wman {
+    width: 100%;
+    height: 100%; }
+
+  h1 {
+    font-size: 2em; }
+
+  h2 {
+    font-size: 1em; }
+
+  h3 {
+    font-size: 1.3em; } }
 .main {
   background-image: url("../images/historia-5.jpg");
   background-color: #1ea8b5;
@@ -142,6 +170,44 @@ a {
   width: 60%;
   margin-left: 20%; }
 
+@media screen and (max-width: 980px) {
+  .container-text-photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: -30em; }
+
+  .photo1-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 9em; }
+
+  .photo1 {
+    width: 9em;
+    opacity: 0.7;
+    border-radius: 100em; }
+
+  .text-photo {
+    width: 100%;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .info-authors {
+    display: none; } }
 .btn-mobile-size {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,6 +313,9 @@ a {
           animation-fill-mode: forwards;
   visibility: hidden; }
 
+@media screen and (max-width: 980px) {
+  .subtitle {
+    width: 80%; } }
 .story {
   width: 80%;
   max-width: 600px;
@@ -302,6 +371,13 @@ a {
   height: 100vh;
   max-width: 100vw; }
 
+@media screen and (max-width: 980px) {
+  .authors {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center; } }
 footer {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
@@ -429,5 +505,4 @@ a.twitter-link {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
     visibility: visible; } }
-
 /*# sourceMappingURL=main.css.map */
