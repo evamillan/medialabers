@@ -92,6 +92,11 @@ a {
 @media screen and (min-width: 480px) {
   .btn-mobile-size {
     display: none; } }
+.new-fp-controlArrow.fp-next {
+  background-image: url("imges/flecha-derecha-en-boton-circular.png");
+  right: 15px;
+  border-width: 38.5px 0 38.5px 34px; }
+
 .main {
   background-image: url("../images/historia-5.jpg");
   background-color: #1ea8b5;
@@ -342,5 +347,4 @@ footer {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
     visibility: visible; } }
-
 /*# sourceMappingURL=main.css.map */
