@@ -104,6 +104,10 @@ a {
   background-size: cover;
   margin-top: 0; }
 
+.grafic {
+  width: 60%;
+  margin-left: 20%; }
+
 .nav-menu {
   background-color: #d7c9aa;
   position: fixed;
