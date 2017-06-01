@@ -23,7 +23,7 @@ to {
 }
 
 .story-intro {
-  background-color: #d7c9aa;
+  background-color: $color-backgroud-stories;
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -37,7 +37,7 @@ to {
 }
 
 .authors {
-  background-color: #d7c9aa;
+  background-color: $color-backgroud-stories;
   display: flex;
   justify-content: space-around;
   align-items: center;

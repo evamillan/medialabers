@@ -1,33 +1,33 @@
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: $font-style-title;
   font-size: 4em;
-  color: #f0f3f5;
+  color: $color-titles-and-background;
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: $font-style-title;
   font-weight: 200;
   font-style: italic;
   font-size: 1.2em;
-  color: #f0f3f5;
+  color: $color-titles-and-background;
   text-align: right;
 }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: $font-style-title;
   font-weight: 200;
   font-style: italic;
   font-size: 2em;
   text-decoration: underline;
-  text-decoration-color: #0b7a75;
+  text-decoration-color: $color-text-underline;
 }
 
 p {
-  font-family: 'Merriweather', serif;
+  font-family: $font-style-paragraph;
   font-size: 1em;
 }
 p:first-child:first-letter {
-      color: #7b2d26;
+      color: $color-details;
       float: left;
       font-size: 3em;
       font-weight: bold;
@@ -35,7 +35,7 @@ p:first-child:first-letter {
     }
 
 a {
-  color: #7b2d26;
+  color: $color-details;
 }
 
 .title {
