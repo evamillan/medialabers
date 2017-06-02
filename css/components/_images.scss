@@ -45,8 +45,13 @@
 }
 
 .grafic {
-  width: 60%;
-  margin-left: 20%;
+  width: 100%;
+
+}
+#grafic{
+  width: 80%;
+  margin:auto;
+
 }
 @media screen and (max-width: 980px) {
   .container-text-photo {
@@ -83,4 +88,8 @@
     min-width: 250px;
     padding: 0;
   }
+}
+.grafic{
+  width: 80%;
+  margin:10%;
 }

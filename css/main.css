@@ -114,6 +114,14 @@ a {
 
   h3 {
     font-size: 1.3em; } }
+#responsive-text {
+  font-size: 0.9em; }
+
+#responsive-texto {
+  font-size: 0.9em; }
+  #responsive-texto p {
+    font-size: 0.9em; }
+
 .main {
   background-image: url("../images/historia-5.jpg");
   background-color: #1ea8b5;
@@ -174,8 +182,11 @@ a {
           justify-content: space-between; }
 
 .grafic {
-  width: 60%;
-  margin-left: 20%; }
+  width: 100%; }
+
+#grafic {
+  width: 80%;
+  margin: auto; }
 
 @media screen and (max-width: 980px) {
   .container-text-photo {
@@ -217,6 +228,10 @@ a {
   .details-info-wman {
     min-width: 250px;
     padding: 0; } }
+.grafic {
+  width: 80%;
+  margin: 10%; }
+
 .btn-mobile-size {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,8 +338,16 @@ a {
   visibility: hidden; }
 
 @media screen and (max-width: 980px) {
+  .title {
+    padding-top: 2%;
+    width: 60%;
+    margin-left: 7%;
+    padding-bottom: 5%; }
+
   .subtitle {
-    width: 80%; } }
+    padding-top: 7%;
+    width: 80%;
+    margin-right: 9%; } }
 .story {
   width: 80%;
   max-width: 600px;
@@ -368,25 +391,42 @@ a {
 
 .authors {
   background-color: #d7c9aa;
+  height: 100vh;
+  max-width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1.625em;
-  height: 100vh;
-  max-width: 100vw; }
+  padding: 3em; }
+
+.left-column {
+  text-align: left; }
 
 @media screen and (max-width: 980px) {
-  .authors {
+  #responsive-methodology {
+    width: 40em; }
+    #responsive-methodology p {
+      font-size: .8em; }
+
+  #responsive-author {
+    width: 40em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center; } }
+            flex-direction: column; }
+    #responsive-author p {
+      font-size: .4em; } }
 footer {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
